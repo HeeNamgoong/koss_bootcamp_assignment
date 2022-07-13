@@ -1,9 +1,5 @@
 //1번 문제
 
-
-var i = 1;
-var j = 2;
-
 for(j = 2; j < 10; j++){
     console.log('==== %d단 시작 ====', j)
     for (i = 1; i < 10; i++) {
@@ -60,21 +56,16 @@ const students = [
 
 function getDegree(score){
     if (score >= 90){
-        score = 'A';
-        return score;
-
+        return 'A';
     }
     else if (score >= 80){
-        score = 'B';
-        return score;
+        return 'B';
     }
     else if (score >= 60){
-        score = 'C';
-        return score;
+        return 'C';
     }
     else {
-        score = 'F';
-        return score;
+        return 'F';
     }
 }
 
